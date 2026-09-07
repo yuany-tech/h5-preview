@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>场地提案 · PPT演示模式｜沙特旗舰发布会（利雅得 11.11）</title>
+<title>场地提案（压缩版 · 8页）｜沙特旗舰发布会 利雅得 11.11</title>
 <style>
+
   :root{
     --bg:#16120C; --panel:#201912; --panel2:#261E14;
     --line:rgba(200,161,101,.22); --line2:rgba(200,161,101,.45);
@@ -135,597 +136,298 @@
     .strip3{grid-template-columns:1fr;}
     .col{flex:auto;}
   }
+
+  /* v0.3 compact additions */
+  .p3grid{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(12px,1.8vw,28px);flex:1;min-height:0;}
+  .lrow{display:grid;grid-template-columns:150px 1fr auto;gap:2px 14px;padding:clamp(4px,.9vh,7px) 4px;border-bottom:1px dashed rgba(200,161,101,.13);align-items:baseline;}
+  .lrow b.nm{color:#FFF6E8;font-weight:600;font-size:clamp(11.5px,1.6vh,14.5px);white-space:nowrap;}
+  .lrow .nt{color:var(--dim);font-size:clamp(10.5px,1.45vh,13px);line-height:1.45;}
+  .fstep.h{flex-direction:row;text-align:left;justify-content:flex-start;gap:16px;align-items:center;padding:clamp(9px,1.6vh,16px) clamp(12px,1.8vw,20px);}
+  .fstep.h .n{font-size:clamp(20px,3.6vh,34px);min-width:44px;}
+  .fstep.h .d{margin:0;letter-spacing:.02em;line-height:1.5;text-align:left;}
+  .fstep.h .d b{color:#FFF6E8;font-weight:600;display:block;}
+  .fq{display:flex;flex-direction:column;}
+  .fqrow{display:grid;grid-template-columns:88px 1fr;gap:4px 12px;padding:clamp(5px,1.1vh,9px) 2px;border-bottom:1px dashed rgba(200,161,101,.14);align-items:start;}
+  .fqrow:last-child{border-bottom:none;}
+  .fqrow .q{font-size:clamp(11px,1.5vh,13.5px);color:var(--gold2);font-weight:600;letter-spacing:.02em;line-height:1.5;padding-top:1px;}
+  .fqrow .a{font-size:clamp(11px,1.55vh,14px);color:var(--cream);line-height:1.55;}
+  .fqrow .a .rf{color:var(--dim2);font-size:.85em;letter-spacing:.04em;}
+  .st{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px;}
+  .st.g{background:var(--green);} .st.y{background:var(--amber);} .st.r{background:var(--red);}
+  .c-creative{background:rgba(200,161,217,.1);color:#C9A8E0;border:1px solid rgba(200,161,217,.35);}
+  .case-tag{font-size:10.5px;padding:2px 11px;border-radius:100px;letter-spacing:.1em;border:1px solid var(--line2);color:var(--gold2);white-space:nowrap;margin-right:6px;vertical-align:2px;}
+  .fqwrap{display:flex;flex-direction:column;gap:clamp(6px,1vh,10px);margin-top:auto;}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:clamp(10px,1.4vh,12.5px);color:var(--dim);}
+
 </style>
 </head>
 <body>
-
-<div class="brand">场地提案 · VENUE PROPOSAL</div>
-<div id="hint">← → 翻页<br>场地章节 · 漏斗版 v0.2</div>
-
+<div class="brand">场地提案 · 沙特旗舰发布会</div>
+<div id="hint">← → 翻页<br>点圆点跳页</div>
 <div id="deck"><div id="track">
-
-<!-- ===== 01 封面 ===== -->
-<section class="slide cover"><div class="inner">
-  <span class="tag">轻比稿提案 · 场地章节</span>
-  <h1>把场地，<br>变成<em>话题</em>。</h1>
-  <div class="lead">不为您指定一个场地，而是给您一套<b>判断场地的方法</b>、六张<b>候选档案卡</b>、三条<b>已验证方向的道路</b>——最终锁定将于 <b>9/17</b> 前，以 RFI 回执 + 视频核验完成。</div>
-  <div class="meta">
-    <span>活动：<b>Find 新品体验发布会</b></span>
-    <span>地点：<b>沙特 · 利雅得</b></span>
-    <span>日期：<b>11月11日</b></span>
-    <span>规模：<b>150人</b></span>
-  </div>
-  <div class="sunline"></div>
-  <div class="sunlabel"><span>16:00 午后金光</span><span>17:00 日落金→红</span><span>17:15 蓝调</span><span>18:00 夜</span></div>
-</div></section>
-
-<!-- ===== 02 提案逻辑 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">01 · WHY</div>
-  <h1 class="s">提案逻辑：判断力 + 核实机制</h1>
-  <div class="s-sub">提案交「判断力与承诺」——场地细节随核实机制锁定，不冒险承诺未验证信息。</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>🟢 已核实 <span class="en">VERIFIED</span></h4>
-      <ul class="l">
-        <li>场地叙事、空间特征、光线条件</li>
-        <li>基于公开资料 + 本地供应商核实</li>
-        <li><b>可直接写进方案</b></li>
-      </ul>
-    </div></div>
-    <div class="col"><div class="card">
-      <h4>🟡 核实中 <span class="en">RFI PENDING</span></h4>
-      <ul class="l">
-        <li>档期 / 拍摄许可 / 费用量级</li>
-        <li>RFI 已发出，<b>9/17 前完成回执核验</b></li>
-        <li>每条道路均配 Plan B——客户看到的永远是「有后手」的方案</li>
-      </ul>
-    </div></div>
-    <div class="col"><div class="card">
-      <h4>⏱ 节奏 <span class="en">RHYTHM</span></h4>
-      <ul class="l">
-        <li><b>9/8</b> 今天之后：方向决策</li>
-        <li><b>9/17</b> 交付可签约的锁定版</li>
-        <li>🔴 不进正文：客户未给信息前不臆测（如预算范围）</li>
-      </ul>
-    </div></div>
-  </div>
-</div></section>
-
-<!-- ===== 03 评估框架 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">02 · FRAMEWORK</div>
-  <h1 class="s">评估框架「场地即话题」5+1 维</h1>
-  <div class="s-sub">先给尺子，再量场地——六个维度构成全部候选场地的统一打分语言。</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,16px);">
-      <div class="tag3 t-green"><b>① 话题性 ★★★★★</b> —— 场地本身是否为传播素材？自带什么叙事？</div>
-      <div class="tag3 t-green"><b>② 光的剧本 ★★★★★</b> —— 16:00-18:00 日落光线能否承载「True to the Moment」？</div>
-      <div class="tag3 t-yellow"><b>③ 空间结构 ★★★★</b> —— 能否容纳「Keynote + 户外日落 + 夜场」三幕（150人流动）？</div>
-      <div class="tag3 t-yellow"><b>④ 本地身份 ★★★★</b> —— 是否让国际嘉宾看见「新沙特」？</div>
-      <div class="tag3 t-blue"><b>⑤ 执行可行性 ★★★★</b> —— 拍摄许可 / 搭建 / 餐饮 / 安保预期难度（RFI验证）</div>
-      <div class="tag3 t-blue"><b>⑥ 成本量级 ★★★</b> —— 场租 + F&amp;B + 执行附加量级（RFI验证）</div>
+<section class="slide cover" id="s1">
+  <div class="inner">
+    <span class="tag">场地提案 · VENUE PROPOSAL</span>
+    <h1>把场地，<em>变成话题</em></h1>
+    <p class="lead">沙特旗舰发布会 · OPPO Find —— 利雅得 11.11 · 150 位嘉宾。<br>三套候选方案，每案必答四问：<b style="color:var(--gold2)">时间档期 · 合作意向 · 费用量级 · 场地限制</b>。</p>
+    <div class="meta">
+      <span><b>地点</b> 利雅得 Riyadh</span>
+      <span><b>日期</b> 11.11（±3 天备选）</span>
+      <span><b>人数</b> 150 位</span>
+      <span><b>日落</b> ≈17:05–17:15（11月）</span>
+      <span><b>结构</b> 三案 × 每案 Plan B</span>
     </div>
-    <div class="col"><div class="card">
-      <h4>为什么「光的剧本」是五星维度</h4>
-      <ul class="l">
-        <li>本场发布会的核心体验：<b>记录天空由金转红</b></li>
-        <li>产品即记录者，场地即主角——光线是唯一无法后期补造的元素</li>
-        <li>所有候选场地，均以<b>同一份 11 月光线基准</b>检验（见下页）</li>
-      </ul>
-      <div class="ph" style="margin-top:auto;min-height:clamp(70px,12vh,130px);"><b>[配图位]</b> 三案日落色调对照（Cultural Anchors PDF）</div>
-    </div></div>
+    <div class="sunline"></div>
+    <div class="sunlabel"><span>16:00 探索</span><span>17:10 日落 · Golden Hour</span><span>18:00 后 夜场</span></div>
   </div>
-</div></section>
+</section>
 
-<!-- ===== 04 光线基准 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">02 · FRAMEWORK</div>
-  <h1 class="s">11月利雅得 · 光线基准</h1>
-  <div class="s-sub">三案共用的时间轴：活动 16:00 入场，正好踩中完整光剧本。</div>
-  <div class="rule"></div>
-  <div class="tl4">
-    <div class="tlitem"><div class="date">16:00 - 17:00</div><div class="t1">午后金光</div><div class="t2">光线斜射，墙面纹理如浮雕。微距 / 人像侧光的黄金测试窗。</div></div>
-    <div class="tlitem"><div class="date">17:00 - 17:15</div><div class="t1">日落 · 金转红</div><div class="t2">天空与地表同帧变色——Golden Hour 峰值，全场共同朝向的仪式时刻。</div></div>
-    <div class="tlitem"><div class="date">17:15 - 17:45</div><div class="t1">蓝调时刻</div><div class="t2">Blue Hour，场地初灯渐亮。Keynote 最佳开场窗（17:35-17:45）。</div></div>
-    <div class="tlitem"><div class="date">18:00 后</div><div class="t1">夜</div><div class="t2">自有灯光 + 克制补光。夜景人像与长曝光的验证场。</div></div>
+<section class="slide" id="s2">
+  <div class="inner">
+    <div class="kicker">01 · HOW TO READ</div>
+    <h2 class="s">判断力 × 核实机制</h2>
+    <p class="s-sub">我们不替客户「定」场地——我们给出<b>判断方法</b>、<b>可溯源的答案</b>与<b>后手</b>。</p>
+    <div class="rule"></div>
+    <div class="flex">
+      <div class="col"><div class="card">
+        <h4>硬性门槛 · 每案必答四问 <span class="en">4 HARD QUESTIONS</span></h4>
+        <div class="fq">
+          <div class="fqrow"><div class="q">① 时间档期</div><div class="a">11/11 ±3 天能否包场或部分封闭？锁场 / 取消政策？是否撞 Riyadh Season？</div></div>
+          <div class="fqrow"><div class="q">② 合作意向</div><div class="a">品牌活动先例？包场机制与对接方是否明确？</div></div>
+          <div class="fqrow"><div class="q">③ 费用量级</div><div class="a">场租区间、F&amp;B minimum、分项预算量级？</div></div>
+          <div class="fqrow"><div class="q">④ 场地限制</div><div class="a">商业拍摄 / 搭建 / 安保 / 通行证的限制清单？</div></div>
+        </div>
+        <div class="legend" style="margin-top:clamp(8px,1.6vh,14px);">
+          <span><span class="st g"></span>已核实</span>
+          <span><span class="st y"></span>RFI 核实中 · 9/14 回执</span>
+          <span><span class="st r"></span>已识别风险 → 均有 Plan B</span>
+        </div>
+      </div></div>
+      <div class="col"><div class="card">
+        <h4>软性取舍 · 六维评估 <span class="en">6 CRITERIA</span></h4>
+        <div class="fq">
+          <div class="fqrow"><div class="q">话题性</div><div class="a">天然传播素材与媒体钩子</div></div>
+          <div class="fqrow"><div class="q">光的剧本</div><div class="a">日落 → 夜场的可编排性</div></div>
+          <div class="fqrow"><div class="q">空间结构</div><div class="a">Keynote / 日落 / 晚宴三段动线</div></div>
+          <div class="fqrow"><div class="q">本地身份</div><div class="a">与沙特叙事 / 来宾身份的契合</div></div>
+          <div class="fqrow"><div class="q">执行可行性</div><div class="a">许可、安保、搭建复杂度</div></div>
+          <div class="fqrow"><div class="q">成本量级</div><div class="a">供案间取舍，不作硬门槛</div></div>
+        </div>
+      </div></div>
+    </div>
+    <div class="goldline"><b>怎么读这份提案：</b>硬性四问逐项给状态（🟢🟡🔴），六维用于案间取舍。所有 🟡 均对应已发出的第二轮 RFI（本地供应商，<b>9/14 回执</b>），9/17 锁定前逐项转 🟢——<b>未核实的信息，不写成卖点。</b></div>
   </div>
-  <div class="goldline" style="margin-top:clamp(12px,2.4vh,22px);"><b>结论：</b>活动 16:00 入场、17:35 前后开 Keynote——三案均按同一份光线剧本排布，<b>日落时刻是全场共享的仪式</b>。</div>
-</div></section>
+</section>
 
-<!-- ===== 05 全景地图 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">03 · PANORAMA</div>
-  <h1 class="s">场地全景地图 · 4类11候选</h1>
-  <div class="s-sub">先看全局——每个场地只给一句话身份；细节与证据见档案卡页。</div>
-  <div class="rule"></div>
-  <div class="flex" style="gap:clamp(10px,1.6vw,24px);">
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,16px);">
-      <div class="card" style="flex:1.2;">
-        <h4>遗产文化 HERITAGE <span class="chip c-heritage">主角候选</span></h4>
-        <ul class="l">
-          <li><b>At-Turaif / 萨尔瓦宫</b> —— UNESCO世界遗产 · 第一沙特王国心脏 <span class="d">[主角]</span></li>
-          <li><b>Bujairi Terrace</b> —— 正对At-Turaif的高端餐饮文化目的地 <span class="d">[夜场]</span></li>
-          <li><b>Murabba Palace</b> —— 国王历史中心 · 纳吉迪建筑+庭院 <span class="d">[Plan B]</span></li>
-          <li><b>Masmak Palace</b> —— 1902收复利雅得要塞 <span class="d">[仅小型VIP]</span></li>
+<section class="slide" id="s3">
+  <div class="inner">
+    <div class="kicker">02 · LANDSCAPE → SHORTLIST</div>
+    <h2 class="s">4 类 11 个候选 → 3 套方案</h2>
+    <p class="s-sub">全景扫描后收敛：<b>空间与审批能撑起 150 人双场景</b>（Keynote + 晚宴）的才进短名单；其余各归其位（Plan B / 延伸 / 不推）。</p>
+    <div class="rule"></div>
+    <div class="p3grid">
+      <div class="col"><div class="card" style="padding:clamp(8px,1.5vh,14px) clamp(10px,1.4vw,18px);">
+        <div class="lrow"><b class="nm">At-Turaif 萨尔瓦宫</b><span class="nt">UNESCO 4.7 · 历史承接奢侈品牌活动</span><span class="chip c-heritage">主推 A · 日间</span></div>
+        <div class="lrow"><b class="nm">Bujairi Terrace</b><span class="nt">高端餐饮目的地 4.7 · 正对 At-Turaif</span><span class="chip c-heritage">主推 A · 夜场</span></div>
+        <div class="lrow"><b class="nm">Tuwaiq Palace</b><span class="nt">外交区 · 河谷俯瞰 · 当代旗舰建筑</span><span class="chip c-modern">主推 B</span></div>
+        <div class="lrow"><b class="nm">Nofa Riyadh</b><span class="nt">Radisson Collection · 沙漠度假 + 湖景</span><span class="chip c-nature">主推 C</span></div>
+        <div class="lrow"><b class="nm">Murabba Palace</b><span class="nt">纳吉迪庭院 · Darah 管理</span><span class="role">替 B</span></div>
+        <div class="lrow"><b class="nm">Jowhara Resort</b><span class="nt">25,000㎡ 私家场地 · 专为活动/拍摄</span><span class="role">替 C</span></div>
+        <div class="lrow"><b class="nm">Cultural Palace 文化宫</b><span class="nt">主厅 700㎡ + 广场 + 户外剧场</span><span class="role">备选池</span></div>
+        <div class="lrow"><b class="nm">JAX District</b><span class="nt">创意园区 · warehouse 暗场可控</span><span class="role">媒体延伸</span></div>
+        <div class="lrow"><b class="nm">Via Riyadh</b><span class="nt">2025 新开高端街区 · 尚未成熟</span><span class="role">观察</span></div>
+        <div class="lrow"><b class="nm">Masmak Palace</b><span class="nt">1902 要塞 · 空间封闭</span><span class="role">不推</span></div>
+        <div class="lrow"><b class="nm">私人 Wadi 营地</b><span class="nt">纯户外日落 wildcard · 无室内保障</span><span class="role">不推</span></div>
+      </div></div>
+      <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
+        <div class="fstep h f-3"><div class="n">A</div><div class="d"><b>萨尔瓦宫 × Bujairi · 遗产一日</b>话题性最强 · UNESCO 双 4.7 · 转场零成本</div></div>
+        <div class="fstep h f-11"><div class="n">B</div><div class="d"><b>Tuwaiq Palace · 现代旗舰</b>旗舰气质最贴产品 · 河谷日落</div></div>
+        <div class="fstep h f-6"><div class="n">C</div><div class="d"><b>Nofa Riyadh · 沙漠度假</b>独家旅程体验 · 天光变化最完整</div></div>
+        <div class="goldline" style="margin:0;">三案均按<b>同一模板</b>回答硬性四问并附 Plan B——详见下三页；取舍逻辑见 P7 对比矩阵。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="s4">
+  <div class="inner">
+    <div class="kicker">03 · SHORTLIST 1 / 3</div>
+    <h2 class="s"><span class="case-tag">方案 A · 主推</span>萨尔瓦宫 × Bujairi Terrace</h2>
+    <p class="s-sub"><b>UNESCO 双 4.7 × 转场零成本</b>——从沙特历史发源地，到新沙特生活方式；一场活动，两种叙事。</p>
+    <div class="rule"></div>
+    <div class="case-grid">
+      <div class="col"><div class="card">
+        <h4>遗产一日 · DIRIYAH HERITAGE DAY</h4>
+        <ul class="l" style="margin-bottom:clamp(8px,1.6vh,14px);">
+          <li><b>At-Turaif</b> 泥墙黄昏 = 「寻根」——萨尔瓦宫历史承接 VIP 外交与奢侈品牌活动</li>
+          <li><b>Bujairi 夜场</b> = 「新沙特生活方式」——高端餐饮目的地，相邻而望</li>
         </ul>
-      </div>
-      <div class="card" style="flex:1;">
-        <h4>创意新潮 CREATIVE</h4>
-        <ul class="l"><li><b>JAX District</b> —— 工业遗产改造创意区 · warehouse暗场 <span class="d">[延伸场景]</span></li></ul>
-      </div>
-    </div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,16px);">
-      <div class="card" style="flex:1.2;">
-        <h4>现代高端 CONTEMPORARY</h4>
-        <ul class="l">
-          <li><b>Tuwaiq Palace</b> —— fortress×tent×oasis · 俯瞰Wadi Hanifa <span class="d">[均衡主选]</span></li>
-          <li><b>Cultural Palace 文化宫</b> —— 主庆典厅700㎡+木顶棚广场+户外剧场 <span class="d">[候补]</span></li>
-          <li><b>Via Riyadh</b> —— 新高端生活方式区 <span class="d">[Bujairi替代]</span></li>
-        </ul>
-      </div>
-      <div class="card" style="flex:1.2;">
-        <h4>自然户外 NATURE / DESERT</h4>
-        <ul class="l">
-          <li><b>Nofa Riyadh</b> —— Radisson Collection · 湖景+野生动物园 <span class="d">[户外主选]</span></li>
-          <li><b>Jowhara Resort</b> —— 25,000㎡私家场地 <span class="d">[Nofa备选]</span></li>
-          <li><b>私人 Wadi / 营地</b> —— 纯户外日落 <span class="d">[Wildcard]</span></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="note" style="font-size:11px;color:var(--dim2);margin-top:10px;">参照系（不作主场地）：Noor Riyadh——光的方法论；Maraya AlUla——审美天花板。</div>
-</div></section>
-
-<!-- ===== 06 筛选漏斗 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">04 · SHORTLIST</div>
-  <h1 class="s">筛选漏斗 11 → 6 → 3</h1>
-  <div class="s-sub">淘汰理由透明化——筛掉的不是「差场地」，而是「此刻不适合这场发布会」的场地。</div>
-  <div class="rule"></div>
-  <div class="funnel3">
-    <div style="display:flex;flex-direction:column;gap:8px;">
-      <div class="fstep f-11" style="flex:1;"><div class="n">11</div><div class="d">全景候选 · 4类</div></div>
-      <div class="farrow">▼</div>
-      <div class="fstep f-6" style="flex:1;"><div class="n">6</div><div class="d">档案卡候选</div></div>
-      <div class="farrow">▼</div>
-      <div class="fstep f-3" style="flex:1;"><div class="n">3</div><div class="d">短名单</div></div>
-    </div>
-    <div class="fmid">
-      <div style="font-size:clamp(11px,1.5vh,13px);color:var(--gold2);letter-spacing:.15em;font-weight:700;">11 → 6 · 淘汰理由</div>
-      <div class="row"><b>Masmak</b><em>空间封闭要塞，容不下150人三幕 → 仅小型VIP/文化叙事</em></div>
-      <div class="row"><b>Via Riyadh</b><em>与Bujairi同类无差异化 → 作Bujairi替代保留</em></div>
-      <div class="row"><b>JAX District</b><em>无日落/遗产基因 → 降为延伸场景（创作者工作坊）</em></div>
-      <div class="row"><b>Jowhara</b><em>与Nofa同属城郊度假，规模话题不及 → 降为Nofa的Plan B</em></div>
-      <div class="row"><b>私人营地</b><em>许可/基建/安保无先例 → 不进正式方案</em></div>
-    </div>
-    <div class="fmid">
-      <div style="font-size:clamp(11px,1.5vh,13px);color:var(--gold2);letter-spacing:.15em;font-weight:700;">6 → 3 · 入选逻辑</div>
-      <div class="row"><em>短名单 = 三幕完整度 × 场地即话题 × 确定性可控 的交集</em></div>
-      <div class="row"><b>文化宫</b><em>动线灵活但缺标志性叙事 → 留候补（B/C替代）</em></div>
-      <div class="row"><b>Murabba</b><em>容量与搭建风险高 → 留Plan B池</em></div>
-      <div class="row" style="margin-top:auto;padding-top:6px;border-top:1px dashed var(--line);"><em style="color:var(--gold2);">三案 = 三种沙特叙事：<b style="color:var(--cream);">遗产的昨天 / 建筑的今天 / 自然的远方</b></em></div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 07 At-Turaif ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 1/6</div>
-  <h2 class="s">At-Turaif / 萨尔瓦宫 Salwa Palace <span class="chip c-heritage">遗产文化</span><span class="role">短名单 A · 主角</span></h2>
-  <div class="s-sub">沙特历史开始的地方——UNESCO世界遗产里的影像探索 ｜ 利雅得西北 Diriyah历史区 ｜ 4.7分(3.6k) ｜ Diriyah Company管理</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = 萨尔瓦宫宴会/庭院空间（RFI核实）</li>
-        <li><b>日落</b> = 制高点与庭院西向，全场同一朝向</li>
-        <li><b>夜场</b> = 步行5分钟至 Bujairi 露台，对望 Diriyah 夜灯</li>
-      </ul>
-      <div class="goldline"><b>光的剧本核心：</b>纳吉迪泥墙由金转红——Diriyah 最著名的时刻，零装置完成的日落仪式</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> At-Turaif 黄昏实景（Cultural Anchors PDF p04-05）</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：遗产叙事 / 与Bujairi零转场动线 / 光线条件 / 餐饮配套</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：UNESCO商业拍摄与包场许可 / 可活动区域与容量 / 11.11档期 / 费用量级</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>Plan B</b>：同区降级 <b>Bujairi-only</b>（现代餐饮区审批路径更成熟）</div>
-      <div class="tag3 t-blue"><b>适合</b>：要文化厚度与传播势能的客户偏好 ｜ 话题性：UNESCO × 高端餐饮 双4.7分</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 08 Bujairi ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 2/6</div>
-  <h2 class="s">Bujairi Terrace <span class="chip c-heritage">遗产文化</span><span class="role">短名单 A · 夜场（组合成员）</span></h2>
-  <div class="s-sub">新沙特的露天客厅——正对 At-Turaif 的高端餐饮文化目的地 ｜ 2022.12开业 ｜ 4.7分(15k) ｜ Altopiano / Angelina / D&amp;G Café</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = 可封闭空间（RFI核实）</li>
-        <li><b>日落</b> = 露台对望 At-Turaif 泥墙金转红</li>
-        <li><b>夜场</b> = 露台晚宴，Diriyah 夜灯为幕——夜景人像+长曝光理想场</li>
-      </ul>
-      <div class="goldline"><b>角色：</b>方案 A 的「夜场担当」——与萨尔瓦宫相邻，转场零成本；独立时即方案 A 的 Plan B</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> Bujairi 夜景（Cultural Anchors PDF p06-07）</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：遗产景观 / 高端餐饮配套 / 与萨尔瓦宫动线衔接</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：包场范围 / Keynote封闭空间 / 11.11档期 / 费用量级</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>局限</b>：独立使用无自有大型宴会厅 → 必须与At-Turaif组合或降级承接</div>
-      <div class="tag3 t-blue"><b>适合</b>：夜场社交 / after-party / VIP晚宴场景</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 09 Tuwaiq ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 3/6</div>
-  <h2 class="s">Tuwaiq Palace <span class="chip c-modern">现代高端</span><span class="role">短名单 B · 均衡主选</span></h2>
-  <div class="s-sub">旗舰产品的旗舰舞台——当代沙特最有力的一栋建筑 ｜ 外交区西北端 ｜ 4.4分(1.5k) ｜ RCRC体系 ｜ 俯瞰 Wadi Hanifa 河谷</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = 宫殿大厅，尾段幕帘升起河谷入画</li>
-        <li><b>日落</b> = 西向露台，河谷天际线 + 建筑剪影</li>
-        <li><b>夜场</b> = 露台河谷夜景晚宴</li>
-      </ul>
-      <div class="goldline"><b>光的剧本核心：</b>拱廊与帐篷结构的几何投影 → 蓝调河谷——「片子里的沙特，就是窗外的沙特」</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> Tuwaiq 主图 + Wadi Hanifa（p09-11）</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：建筑叙事 / 河谷景观 / 光线条件 / 空间尺度</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：外交区通行证流程与名单提前量 / 品牌商业活动审批先例 / 11.11档期与场租</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>Plan B</b>：<b>Murabba Palace</b>（同「现代沙特形成之地」叙事）</div>
-      <div class="tag3 t-blue"><b>适合</b>：要旗舰气质与建筑影像的客户偏好</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 10 Nofa ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 4/6</div>
-  <h2 class="s">Nofa Riyadh <span class="chip c-nature">自然户外</span><span class="role">短名单 C · 沙漠度假差异化</span></h2>
-  <div class="s-sub">把沙漠的恢弘还给嘉宾 ｜ Radisson Collection体系 ｜ 城西45-60分钟 ｜ 湖景 + 野生动物园 + 高尔夫</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = Ballroom（自然采光，面积数据待核）</li>
-        <li><b>日落</b> = 湖岸线排开，「双天空」倒影同帧变色</li>
-        <li><b>夜场</b> = 湖畔篝火 + 星野初现</li>
-      </ul>
-      <div class="goldline"><b>光的剧本核心：</b>沙漠日落 × 湖面镜像——超广角与电影级视频的最佳验证场，零装置完成全场合影时刻</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> Nofa 湖景日落（供应商实拍 / AI意向图）</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：度假村体系成熟 / 沙漠湖景资源 / 户外光剧本</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：Ballroom真实面积与布局（现有数据疑似笔误）/ 85km接驳方案 / 11.11档期与费用</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>Plan B</b>：<b>Jowhara Resort</b>（25,000㎡私家场地）；客户偏好纯市区则降级此案</div>
-      <div class="tag3 t-blue"><b>适合</b>：要独家感与「逃离城市」叙事的客户偏好</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 11 文化宫 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 5/6</div>
-  <h2 class="s">Cultural Palace 文化宫 <span class="chip c-modern">现代高端</span><span class="role">候补 · 一站式动线</span></h2>
-  <div class="s-sub">会议 → 户外 → 晚宴，一个场地走完三幕 ｜ 外交区 ｜ 主庆典厅700㎡（可分2+3小厅）+ 3,375㎡木顶棚广场 + 户外剧场</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = 主庆典厅（可分厅灵活控场）</li>
-        <li><b>日落</b> = 户外剧场 / 广场</li>
-        <li><b>夜场</b> = 木顶棚广场晚宴（风雨无忧）</li>
-      </ul>
-      <div class="goldline"><b>价值：</b>室内外一体的庆典空间组合，动线自由度全场最高——「流程最稳」的候补项</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> 文化宫广场 + 户外剧场</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：空间组合灵活 / 室内外一体动线</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：权威容量表（各布局人数）/ 广场风雨应对 / 户外剧场设备 / 档期费用</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>定位</b>：品牌商业活动先例待查 → <b>短名单候补</b>（方案 B/C 的替代项）</div>
-      <div class="tag3 t-blue"><b>适合</b>：要室内外动线、希望流程更稳的选项</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 12 Murabba ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">05 · DOSSIER 6/6</div>
-  <h2 class="s">Murabba Palace <span class="chip c-heritage">遗产文化</span><span class="role">Plan B · 现代沙特诞生地</span></h2>
-  <div class="s-sub">现代沙特形成之地 ｜ 阿卜杜勒阿齐兹国王历史中心内 ｜ Darah管理 ｜ 真办过带座位/屏幕/灯光的文化活动</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>三幕适配</h4>
-      <ul class="l">
-        <li><b>Keynote</b> = 中央庭院或室内厅（RFI核实）</li>
-        <li><b>日落</b> = 纳吉迪庭院光影</li>
-        <li><b>夜场</b> = 庭院晚宴</li>
-      </ul>
-      <div class="goldline"><b>价值：</b>「现代沙特诞生地」叙事 + 市中心可达——文化活动的真实先例（座位/屏幕/灯光）是最大信心来源</div>
-      <div class="ph" style="flex:1;min-height:clamp(50px,8vh,90px);"><b>[配图位]</b> Murabba 中央庭院（国王历史中心）</div>
-    </div></div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="tag3 t-green"><b><span class="dot g"></span>已核实</b>：文化活动先例 / 庭院空间 / 市中心位置</div>
-      <div class="tag3 t-yellow"><b><span class="dot y"></span>核实中 RFI</b>：Darah对商业活动政策与审批 / 庭院容量上限 / 遗产搭建限制</div>
-      <div class="tag3 t-red"><b><span class="dot r"></span>定位</b>：容量与搭建限制待核 → <b>方案 B（Tuwaiq）的 Plan B</b></div>
-      <div class="tag3 t-blue"><b>适合</b>：外交区流程受阻时承接「现代沙特叙事」</div>
-    </div>
-  </div>
-</div></section>
-
-<!-- ===== 13 对比总览矩阵 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">06 · COMPARISON</div>
-  <h1 class="s">短名单 · 综合维度对比</h1>
-  <div class="s-sub">评估框架六维 × 三案：打分标准透明，一页看全。</div>
-  <div class="rule" style="margin-bottom:clamp(8px,1.6vh,16px);"></div>
-  <table class="mx">
-    <thead><tr>
-      <th style="width:96px;">维度</th>
-      <th>A · 萨尔瓦宫 × Bujairi<span class="small">Diriyah 遗产一日</span></th>
-      <th>B · Tuwaiq Palace<span class="small">现代旗舰 · 均衡项</span></th>
-      <th>C · Nofa Riyadh<span class="small">沙漠度假 · 户外差异化</span></th>
-    </tr></thead>
-    <tbody>
-      <tr><td class="dim">一句话</td><td>从沙特历史发源地出发的影像探索</td><td>旗舰产品的旗舰舞台</td><td>把沙漠的恢弘还给嘉宾</td></tr>
-      <tr><td class="dim">① 话题性</td><td><span class="ok">●●●●●</span> UNESCO×高端餐饮双4.7，天然传播源</td><td><span class="ok">●●●●○</span> 当代建筑符号×河谷尺度</td><td><span class="ok">●●●●○</span> 沙漠+湖+野生动物园独家组合</td></tr>
-      <tr><td class="dim">② 光的剧本</td><td><span class="ok">●●●●●</span> 泥墙金转红，最「沙特」的黄昏</td><td><span class="ok">●●●●○</span> 建筑秩序×河谷天际线</td><td><span class="ok">●●●●○</span> 沙漠日落+湖面「双天空」</td></tr>
-      <tr><td class="dim">③ 空间结构</td><td><span class="mid">●●●●○</span> 相邻两区零转场；Keynote空间待RFI</td><td><span class="ok">●●●●○</span> 大厅+露台+河谷三幕齐备</td><td><span class="mid">●●●○○</span> Ballroom面积疑似笔误待核</td></tr>
-      <tr><td class="dim">④ 本地身份</td><td><span class="ok">●●●●●</span> 寻根·新沙特生活方式</td><td><span class="ok">●●●●○</span> 现代沙特建筑语言</td><td><span class="mid">●●●○○</span> 沙特自然资产（outsider视角）</td></tr>
-      <tr><td class="dim">⑤ 执行可行</td><td><span class="hi">●●○○○</span> 遗产审批最严，已配降级路径</td><td><span class="mid">●●●○○</span> 外交区通行证需提前量</td><td><span class="mid">●●●○○</span> 商业体系成熟，接驳需方案</td></tr>
-      <tr><td class="dim">⑥ 成本量级</td><td class="mid">待 RFI</td><td class="mid">待 RFI</td><td class="mid">待 RFI（度假村价格体系透明）</td></tr>
-      <tr><td class="dim">确定性现状</td><td><span class="hi">●●○○○</span> 叙事最强，待核实最多</td><td><span class="mid">●●●○○</span> 均衡</td><td><span class="mid">●●●○○</span> 商业场地最易核实</td></tr>
-      <tr><td class="dim">Plan B</td><td>Bujairi-only（同区降级）</td><td>Murabba Palace</td><td>Jowhara Resort</td></tr>
-      <tr><td class="dim">适配偏好</td><td>文化厚度与传播势能</td><td>旗舰气质与建筑影像</td><td>独家感与逃离城市</td></tr>
-    </tbody>
-  </table>
-  <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:clamp(6px,1.2vh,12px);font-size:10.5px;color:var(--dim2);">
-    <span><span class="dot g"></span>●●●●● 强</span><span><span class="dot y"></span>●●●○○ 中</span><span><span class="dot r"></span>●●○○○ 弱/待验证</span>
-    <span style="margin-left:auto;">确定性随 RFI 回执更新 · 9/17 锁定</span>
-  </div>
-</div></section>
-
-<!-- ===== 14 三案速览 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">07 · DEEP DIVE</div>
-  <h1 class="s">三案速览：怎么选？</h1>
-  <div class="s-sub">三条路的性格与代价已讲清——选择权交给客户，不替客户做价值排序。</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div class="col"><div class="card">
-      <h4>A · 遗产的昨天 <span class="en">Diriyah 遗产一日</span></h4>
-      <ul class="l">
-        <li>16:00 At-Turaif探索日落 → 17:35 Keynote → Bujairi露台夜场</li>
-        <li>话题性最高；审批难度也最高</li>
-      </ul>
-      <div class="tag3 t-red" style="margin-top:auto;">Plan B：Bujairi-only ｜ 适合：文化厚度派</div>
-    </div></div>
-    <div class="col"><div class="card">
-      <h4>B · 建筑的今天 <span class="en">Tuwaiq 现代旗舰</span></h4>
-      <ul class="l">
-        <li>大厅Keynote「光幕渐启」→ 河谷日落 → 露台晚宴</li>
-        <li>气质最贴产品；外交区流程需提前量</li>
-      </ul>
-      <div class="tag3 t-red" style="margin-top:auto;">Plan B：Murabba ｜ 适合：旗舰影像派</div>
-    </div></div>
-    <div class="col"><div class="card">
-      <h4>C · 自然的远方 <span class="en">Nofa 沙漠度假</span></h4>
-      <ul class="l">
-        <li>Ballroom Keynote → 湖岸「双天空」日落 → 篝火星野</li>
-        <li>独家感最强；距市区45-60分钟</li>
-      </ul>
-      <div class="tag3 t-red" style="margin-top:auto;">Plan B：Jowhara ｜ 适合：独家体验派</div>
-    </div></div>
-  </div>
-  <div class="note" style="font-size:11px;color:var(--dim2);margin-top:12px;">无论客户选哪条：9/17 锁定版都含档期确认、许可路径、费用明细、执行排期。</div>
-</div></section>
-
-<!-- ===== 15 方案A深度 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">07 · DEEP DIVE · A</div>
-  <h1 class="s">方案 A · 一场发布会，走完沙特的昨天与今天</h1>
-  <div class="s-sub">16:00 遗产探索 → 17:35 室内Keynote → 18:00+ Bujairi露台夜场</div>
-  <div class="rule"></div>
-  <div class="case-grid">
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.5;">
-        <h4>光的剧本</h4>
         <div class="steps">
-          <div class="step"><div class="tm">16:00</div><div class="tx">午后金光斜射纳吉迪泥墙——纹理如浮雕（微距/人像侧光验证窗）</div></div>
-          <div class="step"><div class="tm">17:00</div><div class="tx">日落：全场同一朝向，各自用 Find 记录天空由金转红</div></div>
-          <div class="step"><div class="tm">17:15</div><div class="tx">蓝调转场，5分钟步行至「移动影像展」</div></div>
-          <div class="step"><div class="tm">17:35</div><div class="tx">Keynote：帘幕拉开，蓝调 At-Turaif 夜景成为「第二块屏幕」</div></div>
+          <div class="step"><div class="tm">16:00</div><div class="tx">萨尔瓦宫 / At-Turaif 探索 · 含 17:10 泥墙日落</div></div>
+          <div class="step"><div class="tm">17:35</div><div class="tx">室内 Keynote（150 人 · 控光）</div></div>
+          <div class="step"><div class="tm">18:30</div><div class="tx">Bujairi Terrace 夜场 · 晚宴（包场范围待 RFI）</div></div>
         </div>
-      </div>
-      <div class="card" style="flex:1;">
-        <h4>核实与Plan B</h4>
-        <ul class="l">
-          <li><span class="dot g"></span>遗产叙事 / 动线 / 光线 / 餐饮配套</li>
-          <li><span class="dot y"></span>UNESCO拍摄与包场许可 / 容量 / 档期 / 费用</li>
-          <li><span class="dot r"></span>Plan B：Bujairi-only（审批路径更成熟）</li>
-        </ul>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.4;">
-        <h4>视觉方向 MOOD BOARD</h4>
-        <ul class="l">
-          <li>关键词：泥墙温度 / 金色尘埃 / 蓝调反差 / 遗产×香槟</li>
-          <li>材质：纳吉迪泥砖 / 棕榈木梁 / 石材 / 铜器 / 丝绒</li>
-        </ul>
-        <div class="swatches">
-          <div class="sw"><div class="c" style="background:#C8A165;"></div><div class="t">沙漠金</div></div>
-          <div class="sw"><div class="c" style="background:#B5543A;"></div><div class="t">落日红</div></div>
-          <div class="sw"><div class="c" style="background:#2A3B5C;"></div><div class="t">蓝调</div></div>
-          <div class="sw"><div class="c" style="background:#E8C89A;"></div><div class="t">夜灯暖金</div></div>
+        <div class="ph" style="margin-top:auto;flex:1;min-height:56px;">[配图位] At-Turaif 黄昏 + Bujairi 夜景 · Cultural Anchors 实景 P.14/16</div>
+      </div></div>
+      <div class="col"><div class="card">
+        <h4>硬性四问 · RFI TRACKER <span class="en">第二轮 RFI 已发 · 9/14 回执</span></h4>
+        <div class="fq">
+          <div class="fqrow"><div class="q"><span class="st y"></span>时间档期</div><div class="a">11/11 ±3 待场地方确认；同期 Riyadh / Diriyah Season 撞期影响一并核实 <span class="rf">RFI·A</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>合作意向</div><div class="a">供应商佐证萨尔瓦宫有奢侈品牌/VIP 活动先例；Bujairi 包场与餐饮机制确认中 <span class="rf">RFI·E</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>费用量级</div><div class="a">场租区间 + F&amp;B minimum 已询，回执后填区间 <span class="rf">RFI·D</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st r"></span>场地限制</div><div class="a">UNESCO 商业拍摄 / 包场 / 搭建审批最严；可活动区与许可对接方（Diriyah Company）待确认 <span class="rf">RFI·B</span></div></div>
         </div>
-        <div class="ph" style="margin-top:auto;"><b>[配图位]</b> At-Turaif 多图氛围页（p05）</div>
-      </div>
-      <div class="goldline" style="flex:1;display:flex;align-items:center;margin:0;"><b>Wow moment：</b>日落零主持干预——产品即记录者，场地即主角。</div>
+        <div class="fqwrap">
+          <div class="tag3 t-red">风险：UNESCO 审批是本案唯一硬卡点 —— 已列为 RFI 首问</div>
+          <div class="tag3 t-yellow">Plan B：若审批不达 → Bujairi Terrace 单场地（保留夜场叙事，压缩日间段）</div>
+        </div>
+      </div></div>
     </div>
   </div>
-</div></section>
+</section>
 
-<!-- ===== 16 方案B深度 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">07 · DEEP DIVE · B</div>
-  <h1 class="s">方案 B · 为当代沙特最有力的一款产品而亮</h1>
-  <div class="s-sub">16:00 建筑探索+河谷日落 → 17:35 Keynote「光幕渐启」→ 18:00+ 露台河谷夜景晚宴</div>
-  <div class="rule"></div>
-  <div class="case-grid">
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.5;">
-        <h4>光的剧本</h4>
+<section class="slide" id="s5">
+  <div class="inner">
+    <div class="kicker">03 · SHORTLIST 2 / 3</div>
+    <h2 class="s"><span class="case-tag">方案 B · 均衡</span>Tuwaiq Palace</h2>
+    <p class="s-sub"><b>fortress × tent × oasis × 河谷尺度</b>——当代沙特建筑语言；旗舰产品的旗舰舞台。</p>
+    <div class="rule"></div>
+    <div class="case-grid">
+      <div class="col"><div class="card">
+        <h4>现代旗舰 · CONTEMPORARY FLAGSHIP</h4>
+        <ul class="l" style="margin-bottom:clamp(8px,1.6vh,14px);">
+          <li>俯瞰 <b>Wadi Hanifa</b> 的宫殿式建筑群，气质最贴近「哈苏设计 = 科技力与贵」</li>
+          <li>室内 Keynote → 河谷日落 → 建筑夜景，<b>三段式一气呵成</b></li>
+        </ul>
         <div class="steps">
-          <div class="step"><div class="tm">16:00</div><div class="tx">拱廊与帐篷结构低角度光的几何投影——验证建筑美学</div></div>
-          <div class="step"><div class="tm">17:00</div><div class="tx">日落：河谷天际线 + 建筑剪影</div></div>
-          <div class="step"><div class="tm">17:15</div><div class="tx">河谷蓝调 + 宫殿初灯</div></div>
-          <div class="step"><div class="tm">17:35</div><div class="tx">Keynote「光幕渐启」——幕帘升起，Wadi Hanifa入画</div></div>
+          <div class="step"><div class="tm">16:00</div><div class="tx">抵达 · Wadi 河谷漫步</div></div>
+          <div class="step"><div class="tm">17:10</div><div class="tx">河谷日落仪式（户外）</div></div>
+          <div class="step"><div class="tm">17:40</div><div class="tx">宫殿大厅 Keynote（150 人）</div></div>
+          <div class="step"><div class="tm">19:00</div><div class="tx">建筑夜景晚宴</div></div>
         </div>
-      </div>
-      <div class="card" style="flex:1;">
-        <h4>核实与Plan B</h4>
-        <ul class="l">
-          <li><span class="dot g"></span>建筑叙事 / 河谷景观 / 光线 / 空间尺度</li>
-          <li><span class="dot y"></span>外交区通行证与名单提前量 / 商业活动审批先例 / 档期场租</li>
-          <li><span class="dot r"></span>Plan B：Murabba Palace（Darah管理）</li>
-        </ul>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.4;">
-        <h4>视觉方向 MOOD BOARD</h4>
-        <ul class="l">
-          <li>关键词：建筑秩序 / 拱与帐 / 河谷尺度 / 旗舰克制</li>
-          <li>材质：石材 / 拉丝金属 / 帆布帐篷肌理 / 水磨石 / 玻璃</li>
-        </ul>
-        <div class="swatches">
-          <div class="sw"><div class="c" style="background:#D9CDB8;"></div><div class="t">砂岩米白</div></div>
-          <div class="sw"><div class="c" style="background:#3A3A38;"></div><div class="t">炭灰</div></div>
-          <div class="sw"><div class="c" style="background:#D98E4A;"></div><div class="t">落日金</div></div>
-          <div class="sw"><div class="c" style="background:#1E2A44;"></div><div class="t">夜蓝</div></div>
+        <div class="ph" style="margin-top:auto;flex:1;min-height:44px;">[配图位] Tuwaiq 建筑 + Wadi 河谷 · Cultural Anchors 实景 P.18</div>
+      </div></div>
+      <div class="col"><div class="card">
+        <h4>硬性四问 · RFI TRACKER <span class="en">第二轮 RFI 已发 · 9/14 回执</span></h4>
+        <div class="fq">
+          <div class="fqrow"><div class="q"><span class="st y"></span>时间档期</div><div class="a">11/11 ±3 待确认；外交区活动无公开排期 <span class="rf">RFI·A1</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>合作意向</div><div class="a">场地管理方与租赁条件待 RFI；品牌活动先例核实中 <span class="rf">RFI·E1</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>费用量级</div><div class="a">场租 + 外交区服务附加费一并询价 <span class="rf">RFI·D</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st r"></span>场地限制</div><div class="a">外交区安保 + 通行证流程——嘉宾名单需提前量；宫殿控光/搭建条件待确认 <span class="rf">RFI·B/C</span></div></div>
         </div>
-        <div class="ph" style="margin-top:auto;"><b>[配图位]</b> Tuwaiq 多图页（p11）+ 河谷氛围（p09）</div>
-      </div>
-      <div class="goldline" style="flex:1;display:flex;align-items:center;margin:0;"><b>Wow moment：</b>片子里的沙特，就是窗外的沙特。</div>
+        <div class="fqwrap">
+          <div class="tag3 t-red">风险：外交区通行证流程决定一切 —— 需最早启动、预留名单周期</div>
+          <div class="tag3 t-yellow">Plan B：Murabba Palace（纳吉迪庭院 ·「现代沙特形成之地」叙事）</div>
+        </div>
+      </div></div>
     </div>
   </div>
-</div></section>
+</section>
 
-<!-- ===== 17 方案C深度 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">07 · DEEP DIVE · C</div>
-  <h1 class="s">方案 C · 把城市留在身后，把天空留在眼前</h1>
-  <div class="s-sub">16:00 户外沙漠/湖岸体验 → 17:35 Ballroom Keynote → 18:00+ 湖畔篝火晚宴</div>
-  <div class="rule"></div>
-  <div class="case-grid">
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.5;">
-        <h4>光的剧本</h4>
+<section class="slide" id="s6">
+  <div class="inner">
+    <div class="kicker">03 · SHORTLIST 3 / 3</div>
+    <h2 class="s"><span class="case-tag">方案 C · 户外差异</span>Nofa Riyadh</h2>
+    <p class="s-sub"><b>把沙漠的恢弘与天光还给嘉宾</b>——黄昏由金转红、蓝调湖景、篝火晚宴。</p>
+    <div class="rule"></div>
+    <div class="case-grid">
+      <div class="col"><div class="card">
+        <h4>沙漠度假 · DESERT ESCAPE</h4>
+        <ul class="l" style="margin-bottom:clamp(8px,1.6vh,14px);">
+          <li>Radisson Collection 度假村 + 野生动物园 + 湖景 + 高尔夫，<b>「exclusive 旅程」感最强</b></li>
+          <li>Ballroom 自然采光 Keynote → 户外日落 → 湖畔夜场</li>
+        </ul>
         <div class="steps">
-          <div class="step"><div class="tm">16:00</div><div class="tx">沙丘长影与风纹——沙纹微距 / 野生动物远眺</div></div>
-          <div class="step"><div class="tm">17:00</div><div class="tx">日落：湖面倒影成「双重天空」——超广角+电影级视频最佳验证场</div></div>
-          <div class="step"><div class="tm">17:15</div><div class="tx">湖景蓝调对称构图</div></div>
-          <div class="step"><div class="tm">17:35</div><div class="tx">Ballroom 自然采光转室内暖光</div></div>
+          <div class="step"><div class="tm">15:30</div><div class="tx">市区接驳出发（45–60 分钟）</div></div>
+          <div class="step"><div class="tm">16:30</div><div class="tx">抵达 · 湖景漫步</div></div>
+          <div class="step"><div class="tm">17:10</div><div class="tx">沙漠日落（金 → 红）</div></div>
+          <div class="step"><div class="tm">17:45</div><div class="tx">Ballroom Keynote（自然采光）</div></div>
+          <div class="step"><div class="tm">19:30</div><div class="tx">湖畔篝火晚宴</div></div>
         </div>
-      </div>
-      <div class="card" style="flex:1;">
-        <h4>核实与Plan B</h4>
-        <ul class="l">
-          <li><span class="dot g"></span>度假村体系 / 沙漠湖景资源 / 户外光剧本</li>
-          <li><span class="dot y"></span>Ballroom真实面积（疑似笔误）/ 85km接驳 / 档期费用</li>
-          <li><span class="dot r"></span>Plan B：Jowhara Resort（25,000㎡私家场地）</li>
-        </ul>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:clamp(8px,1.6vh,14px);">
-      <div class="card" style="flex:1.4;">
-        <h4>视觉方向 MOOD BOARD</h4>
-        <ul class="l">
-          <li>关键词：沙漠纯粹 / 湖光双镜 / 篝火温度 / 独家旅程</li>
-          <li>材质：粗粝沙石 / 皮革 / 木质 / 帐篷织物 / 水的镜面</li>
-        </ul>
-        <div class="swatches">
-          <div class="sw"><div class="c" style="background:#D9A05B;"></div><div class="t">沙漠金</div></div>
-          <div class="sw"><div class="c" style="background:#C0563B;"></div><div class="t">熔岩红</div></div>
-          <div class="sw"><div class="c" style="background:#33506E;"></div><div class="t">湖面蓝</div></div>
-          <div class="sw"><div class="c" style="background:#E0762D;"></div><div class="t">篝火橙</div></div>
+        <div class="ph" style="margin-top:auto;flex:1;min-height:36px;">[配图位] Nofa 湖景 + 沙漠黄昏 · 酒店官方资料 P.22</div>
+      </div></div>
+      <div class="col"><div class="card">
+        <h4>硬性四问 · RFI TRACKER <span class="en">第二轮 RFI 已发 · 9/14 回执</span></h4>
+        <div class="fq">
+          <div class="fqrow"><div class="q"><span class="st y"></span>时间档期</div><div class="a">11 月度假旺季 + Riyadh Season 撞期，对房价 / 交通影响待 RFI <span class="rf">RFI·A3</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>合作意向</div><div class="a">Radisson 商业活动为常规业务，具体政策与同类案例待 RFI <span class="rf">RFI·E1</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st y"></span>费用量级</div><div class="a">场租 / F&amp;B / 接驳车分项询价中 <span class="rf">RFI·D</span></div></div>
+          <div class="fqrow"><div class="q"><span class="st r"></span>场地限制</div><div class="a">距市区 45–60 分钟需接驳方案；Ballroom 面积疑似笔误（12,166㎡）已列为必答核实项 <span class="rf">RFI·C</span></div></div>
         </div>
-        <div class="ph" style="margin-top:auto;"><b>[配图位]</b> 沙漠+湖景意向图</div>
-      </div>
-      <div class="goldline" style="flex:1;display:flex;align-items:center;margin:0;"><b>Wow moment：</b>倒影与天空同帧变色——零装置完成全场合影时刻。</div>
+        <div class="fqwrap">
+          <div class="tag3 t-red">风险：车程与数据存疑 —— 接驳方案 + 面积核实已进 RFI</div>
+          <div class="tag3 t-yellow">Plan B：Jowhara Resort（25,000㎡ 私家场地 · 超 VIP / 拍摄）</div>
+        </div>
+      </div></div>
     </div>
   </div>
-</div></section>
+</section>
 
-<!-- ===== 18 时间表 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">08 · TIMELINE</div>
-  <h1 class="s">核实与锁定时间表</h1>
-  <div class="s-sub">今天给方向，9/17 前给锁定——档期与许可在签约前完成全部验证。</div>
-  <div class="rule"></div>
-  <div class="tl4">
-    <div class="tlitem"><div class="date">9/8</div><div class="t1">提案提交</div><div class="t2">三套方向 + 评估框架 + 确定性标注（本稿）</div></div>
-    <div class="tlitem"><div class="date">9/9</div><div class="t1">提案陈述</div><div class="t2">备 1 页「核实进度说明」随答随证</div></div>
-    <div class="tlitem"><div class="date">9/10-14</div><div class="t1">定标窗口</div><div class="t2">客户定标；供应商 RFI 回执回收——三生死题：档期 / 拍摄许可 / 费用量级</div></div>
-    <div class="tlitem hl"><div class="date">9/17</div><div class="t1">锁定版交付</div><div class="t2">回执核验 + 实拍/视频确认，交付可签约版本</div></div>
+<section class="slide" id="s7">
+  <div class="inner">
+    <div class="kicker">04 · COMPARISON</div>
+    <h2 class="s">三案对比总览</h2>
+    <p class="s-sub">同一套尺子量三案——硬性四问看门槛，六维看气质。</p>
+    <div class="rule"></div>
+    <table class="mx">
+      <thead><tr>
+        <th style="width:110px;">维度</th>
+        <th>方案 A · 萨尔瓦宫 × Bujairi<span class="small">遗产一日 · 主推</span></th>
+        <th>方案 B · Tuwaiq Palace<span class="small">现代旗舰</span></th>
+        <th>方案 C · Nofa Riyadh<span class="small">沙漠度假</span></th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="dim">话题性</td><td class="hi">最强 —— UNESCO 双 4.7，天然传播源</td><td class="mid">中高 —— 建筑地标 + 河谷视野</td><td class="mid">中 —— 独家体验感强，媒体钩子靠内容</td></tr>
+        <tr><td class="dim">光的剧本</td><td>双场景：泥墙黄昏 + Bujairi 夜场</td><td>河谷日落 → 建筑夜景</td><td>沙漠金红 → 蓝调湖景，天光最完整</td></tr>
+        <tr><td class="dim">空间结构</td><td>遗产区 + 商业露台，转场零成本</td><td>室内外一体，河谷纵深</td><td>度假村全配套，动线开放</td></tr>
+        <tr><td class="dim">本地身份</td><td>沙特历史源头 · 最「寻根」</td><td>当代沙特建筑 · 最贴产品旗舰感</td><td>沙特自然景观 · 最「逃离城市」</td></tr>
+        <tr><td class="dim">执行可行性</td><td class="mid">中 —— UNESCO 审批最严</td><td class="mid">中 —— 外交区通行证流程</td><td class="ok">高 —— 商业酒店标准流程</td></tr>
+        <tr><td class="dim">成本量级</td><td>中 – 高（遗产区 + 夜场双投入）</td><td>中（单一场地）</td><td>中 – 高（含 45–60min 接驳）</td></tr>
+      </tbody>
+    </table>
+    <div class="goldline"><b>结论：</b>默认主推 <b>A</b>（话题性最稀缺）；若客户首要诉求是「产品旗舰气质」选 <b>B</b>、是「独家旅程体验」选 <b>C</b>——最终取舍 = 首要诉求 × 预算量级 × 车程容忍度（见 P8 三问）。</div>
   </div>
-  <div class="goldline" style="margin-top:clamp(12px,2.4vh,22px);"><b>承诺话术：</b>「场地最终方案将随本地 RFI 回执与实拍核验更新，最迟于 9/17 向贵方交付锁定版——确保 11/11 档期与许可在签约前完成全部验证。」</div>
-</div></section>
+</section>
 
-<!-- ===== 19 下一步 ===== -->
-<section class="slide"><div class="inner">
-  <div class="kicker">09 · NEXT</div>
-  <h1 class="s">下一步：请您选路</h1>
-  <div class="s-sub">三条路已铺好——请给一个偏好方向，我们 9/17 前完成锁定。</div>
-  <div class="rule"></div>
-  <div class="flex">
-    <div style="flex:1.4;" class="qlist">
-      <div class="qitem"><div class="qn">1</div><div><div class="qt">您更想嘉宾记住哪种沙特？</div><div class="qs">遗产的昨天（A）/ 建筑的今天（B）/ 自然的远方（C）</div></div></div>
-      <div class="qitem"><div class="qn">2</div><div><div class="qt">传播素材优先级？</div><div class="qs">文化叙事（A）/ 建筑影像（B）/ 独家场景（C）</div></div></div>
-      <div class="qitem"><div class="qn">3</div><div><div class="qt">预算与市区偏好</div><div class="qs">如有倾向请告知，将直接决定 RFI 深挖优先级</div></div></div>
-    </div>
-    <div class="col" style="display:flex;flex-direction:column;gap:clamp(8px,1.5vh,14px);">
-      <div class="card" style="flex:1;">
-        <h4>附录资源（随提案附上）</h4>
-        <ul class="l">
-          <li>RFI 问题清单：8核心问 × 11场地矩阵（已发本地供应商）</li>
-          <li>延伸场景：JAX（创作者工作坊）/ Masmak（文化叙事）</li>
-          <li>供应商本地问题清单（中文对照）</li>
-        </ul>
-      </div>
-      <div class="card" style="flex:1;justify-content:center;background:linear-gradient(150deg,rgba(200,161,101,.16),var(--panel));">
-        <div style="font-size:clamp(13px,2vh,19px);color:var(--gold2);font-weight:700;line-height:1.6;">无论选哪条——<br>9/17 交付：档期确认 · 许可路径 · 费用明细 · 执行排期</div>
-      </div>
+<section class="slide" id="s8">
+  <div class="inner">
+    <div class="kicker">05 · COMMITMENT &amp; NEXT</div>
+    <h2 class="s">锁定路径 &amp; 三个确认</h2>
+    <p class="s-sub">时间表即承诺：<b>每一步都有日期，每一个 🟡 都有截止日。</b></p>
+    <div class="rule"></div>
+    <div class="flex">
+      <div class="col"><div class="card">
+        <h4>锁定路径 <span class="en">COMMITMENT TIMELINE</span></h4>
+        <div class="steps">
+          <div class="step"><div class="tm">9/8</div><div class="tx"><b>方向确认</b>——三案取舍基准（今天）</div></div>
+          <div class="step"><div class="tm">9/9</div><div class="tx"><b>提案呈现</b>——场地章随整案提交</div></div>
+          <div class="step"><div class="tm">9/14</div><div class="tx"><b>RFI 回执</b>——硬性四问逐项补齐 🟡→🟢</div></div>
+          <div class="step"><div class="tm">9/17</div><div class="tx"><b>场地锁定</b>——主选 + Plan B 同步冻结</div></div>
+        </div>
+        <div class="goldline" style="margin-top:auto;"><b>承诺：</b>9/17 前所有 🟡 转 🟢；<b>未锁定，不出街</b>——提案里不写任何未经核实的场地承诺。</div>
+      </div></div>
+      <div class="col"><div class="card">
+        <h4>需要你拍板的三个问题 <span class="en">3 DECISIONS</span></h4>
+        <div class="qlist">
+          <div class="qitem"><div class="qn">1</div><div><div class="qt">首要诉求：话题性 / 旗舰气质 / 独家体验？</div><div class="qs">先定取舍基准，A / B / C 的权重随之确定</div></div></div>
+          <div class="qitem"><div class="qn">2</div><div><div class="qt">预算量级可否同步告知？</div><div class="qs">场租区间直接决定三案取舍与 RFI 谈判目标</div></div></div>
+          <div class="qitem"><div class="qn">3</div><div><div class="qt">是否接受 45–60 分钟城郊车程？</div><div class="qs">Nofa（方案 C）成立的前提</div></div></div>
+        </div>
+        <div style="margin-top:auto;text-align:right;color:var(--dim2);font-size:clamp(11px,1.5vh,13.5px);letter-spacing:.06em;">三问有答案 → 24h 内出单场地深化版（平面动线 + 分区 + 时间轴）</div>
+      </div></div>
     </div>
   </div>
-</div></section>
+</section>
 
 </div></div>
-
-<!-- ===== nav UI ===== -->
 <button class="arr" id="prev" onclick="go(cur-1)">‹</button>
 <button class="arr" id="next" onclick="go(cur+1)">›</button>
 <div id="nav">
   <div id="dots"></div>
   <div id="count"></div>
 </div>
-
 <script>
+
 var slides=[].slice.call(document.querySelectorAll('.slide')), cur=0, N=slides.length;
 var dotsBox=document.getElementById('dots'), countBox=document.getElementById('count');
 for(var i=0;i<N;i++){var d=document.createElement('i');d.onclick=(function(k){return function(){go(k)}})(i);dotsBox.appendChild(d);}
@@ -751,6 +453,7 @@ document.addEventListener('touchend',function(e){
 },{passive:true});
 window.addEventListener('resize',function(){document.getElementById('track').style.transform='translateY(-'+(cur*100)+'vh)';});
 (function(){var m=location.hash.match(/s(\d+)/);if(m){go(parseInt(m[1],10)-1);}else{go(0);}})();
+
 </script>
 </body>
 </html>
